@@ -1,0 +1,110 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.navigation {
+    font-family: var(--font1);
+    height: 74px;
+    background-color: rgb(61 235 241);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  .nav-right {
+    margin-right: 200px;
+  }
+  .nav-left {
+    font-size: 25px;
+    display: flex;
+    font-weight: 700;
+    margin-left: 140px;
+  }
+  .nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+  }
+  .nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+  }
+  .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  .btn {
+    padding: 3px 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 11px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  .btn:hover{
+    color: #fff;
+    background: scroll;
+  }
+.bttn {
+    color: white;
+    background: scroll;
+    font-weight: 800;
+}
+.sec1 {
+    background-image: url('/Landing\ page\ Task1/Img/download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.sec1 h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.sec1 p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.destinations {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.destinations h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.destination {
+    text-align: center;
+    padding: 20px;
+}
+
+.destination img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
